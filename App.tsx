@@ -9,46 +9,26 @@ import React from 'react';
 
 import {
   SafeAreaView,
-
   StyleSheet,
-
 } from 'react-native';
 import Home from './public/pages/app_View/Home';
-
-
-
-
-
+import Dashboard from './public/pages/app_View/Dashboard';
 
 function App() {
 
 
   return (
-    <SafeAreaView >
-     <Home/>
+    <SafeAreaView style={styles.SafeAreaView}>
+     <Dashboard/>
     </SafeAreaView>
-     
-    
   );
 }
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
+ SafeAreaView:{
+  backgroundColor:"#EDEDED",width:"100%",
+  height:"100%"
+ }
 });
 
 export default App;

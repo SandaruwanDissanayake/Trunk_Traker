@@ -12,7 +12,7 @@ function Home() {
         <View style={styles.View2}>
           <Image
             style={styles.img}
-            source={require('../../resourse/1ELE1.png')}
+            source={require('../../resources/1ELE1.png')}
           />
         </View>
         <View style={styles.View3}>
